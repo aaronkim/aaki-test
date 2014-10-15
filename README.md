@@ -1,4 +1,4 @@
 aaki-test
 =========
 
-aaki frame test
+aaki framework test
