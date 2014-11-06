@@ -1,4 +1,4 @@
-project(aaki)
+project(aaki-test)
 
 cmake_minimum_required(VERSION 2.8)
 set(CMAKE_BUILD_TYPE "Debug")
@@ -35,6 +35,9 @@ if(NOT AAKI_CFG)
 	endif(NOT AAKI_CFG)
 endif(NOT AAKI_CFG)
 
+message("EXECUTABLE_OUTPUT_PATH : " ${EXECUTABLE_OUTPUT_PATH})
+message("LIBRARY_OUTPUT_PATH : " ${LIBRARY_OUTPUT_PATH})
+message("CMAKE_CACHEFILE_DIR : " ${CMAKE_CACHEFILE_DIR})
 
 #add_subdirectory (test)
 
